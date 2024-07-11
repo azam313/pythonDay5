@@ -40,3 +40,45 @@
 <p>tup = (2,1,3,1)</p>
 <p>tup.index(el)    #returns index of first occurrence  tup.index(1) is 1</p>
 <p>tup.count(el)    #counts total occurrences  tup.count(1) is 2</p>
+
+<h1><u>Dictionary in Python</u></h1>
+<h3>Dictionary are used to store data values in key:values pairs</h3>
+<h3>They are unordered,mutable(changeable) & don't allow duplicate keys</h3>
+<p>dict["name"], dict["cgpa"],dict["marks"]</p>
+<p>dic["key"] = "value" #to assign or add new</p>
+<hr>
+
+<h1><u>Dictionary in Python</u></h1>
+<h3>Nested Dictionaries</h3>
+<p>std = {<br>
+        "name":"azam"<br>
+        "score":{<br>
+                "eng":99,<br>
+                "maths":88,<br>
+                "phy":77 <br>
+        }
+</p>
+<hr>
+
+<h1><u>Dictionary Methods</u></h1>
+<p>my.Dict.keys() #return all keys</p>
+<p>my.Dict.values() #return all values</p>
+<p>my.Dict.items() #returns all(key,val) pairs as tuples</p>
+<p>my.Dict.update(newDict) #inserts the specified items to the dictionary</p>
+<hr>
+
+<h1><u>Set in Python</u></h1>
+<h3>Set is the collection of the unordered items.</h3>
+<h3>Each element in the set must be unique & immutable.</h3>
+<p>nums = {1,2,3,4}</p>
+<p>set2 = {1,2,2,2}</p> #it dont repeate same vlue.
+<p>null_set = set()</p>
+<hr>
+
+<h1><u>Set Methods</u></h1>
+<p>set.add(el)  #adds an element</p>
+<p>set.remove(el) #removes the elements</p>
+<p>set.clear() #removes the set</p>
+<p>set.pop() #removes the random vlue</p>
+<p>set.union(set2) #combines both set values & returns new</p>
+<p>set.intersection(set2) #combines common values & returns new</p>
